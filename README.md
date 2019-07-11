@@ -5,3 +5,6 @@
 ##### /resource 资源文件如 html/css/js 等  
 ##### /server  运行的jar包  
 ##### /logs 日志  
+
+#### 查看进程异常退出
+##### dmesg -T | grep "(java)"
