@@ -8,3 +8,7 @@
 
 #### 查看进程异常退出
 ##### dmesg -T | grep "(java)"
+
+#### mysql
+##### Host '124.202.183.18' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts
+flush hosts;
