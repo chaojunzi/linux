@@ -1,6 +1,6 @@
 #!/bin/bash
 #开启防火墙
-PORT_PATTERN="^[0-9]{4,5}([-]{1}[0-9]{4,5})?$"
+PORT_PATTERN="^[0-9]{2,5}([-]{1}[0-9]{2,5})?$"
 if [[ ! "$1" =~ $PORT_PATTERN ]];then
    echo "端口异常：$1"
    exit 0;

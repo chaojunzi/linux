@@ -8,7 +8,7 @@ CONF_OPTS="-Dspring.config.location=classpath:/,classpath:/config/,file:./,file:
 
 NACOS_OPTS="-Duser.home=/tmp -Dspring.cloud.nacos.config.server-addr=124.202.183.18:8848   -Dspring.cloud.nacos.config.namespace=0e8b6430-57b6-497a-a8b5-ce77bed45ac3"
 
-JAVA_OPTS="-server -Xms512m -Xmx512m -Xmn200m -XX:MetaspaceSize=256m -XX:MaxMetaspaceSize=256m -Xverify:none -XX:+DisableExplicitGC -Djava.awt.headless=true -Duser.home=/tmp $CONF_OPTS $NACOS_OPTS"
+JAVA_OPTS="-server -Xms512m -Xmx512m -Xmn200m -XX:MetaspaceSize=256m -XX:MaxMetaspaceSize=256m -Xverify:none -XX:+DisableExplicitGC -Djava.awt.headless=true -Duser.home=/tmp  -Djava.io.tmpdir=/var/tmp $CONF_OPTS $NACOS_OPTS"
 #SpringBoot=$2
 SpringBoot=
  
