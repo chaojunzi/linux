@@ -9,6 +9,7 @@
 #### 查看进程异常退出
 ##### dmesg -T | grep "(java)"
 
-#### mysql
-##### Host '124.202.183.18' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts
+## mysql
+1. 安装地址 [mysql-5.7-centos7](https://www.linuxidc.com/Linux/2016-06/132676.htm)  
+2. Host '124.202.183.18' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts  
 flush hosts;
